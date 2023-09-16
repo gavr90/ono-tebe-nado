@@ -1,5 +1,52 @@
 .header {
+  padding: 92px 49px 96px 51px;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  grid-template-areas:
+  "header-menu header__logo adress";
+  align-items: center;
+}
 
+.header-menu {
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  list-style-position: inside;
+  padding-left: 12px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+
+}
+
+.header__link_active {
+
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__logo-image {
+
+}
+
+.address {
+
+}
+
+.header__address {
+  justify-self: end;
 }
 
 .cover {
