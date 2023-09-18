@@ -26,10 +26,6 @@
   list-style: none;
 }
 
-.header__link {
-
-}
-
 .header__link_active {
   text-decoration-line: none;
 }
@@ -37,10 +33,6 @@
 .header__logo {
   width: 148px;
 }
-
-.header__logo-image {
-
-} 
 
 .address {
   font-size: 18px;
@@ -294,14 +286,6 @@
   font-size: 18px;
 }
 
-.footer__menu-list-item {
-
-}
-
-.footer__menu-link {
-
-}
-
 .footer__menu-link_active {
   text-decoration-line: none;
 }
@@ -315,10 +299,6 @@
 
 .footer__social-list-item {
   list-style: none;
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {
