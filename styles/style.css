@@ -98,7 +98,7 @@
 }
 
 .cover__description {
-  padding: 135px 0 0;
+  padding: 147px 0 0;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -261,7 +261,7 @@
   max-width: 885px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .about__text {
