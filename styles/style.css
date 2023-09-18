@@ -31,7 +31,8 @@
 }
 
 .header__logo {
-  width: 148px;
+  min-width: 148px;
+  min-height: 105px;
 }
 
 .address {
@@ -209,7 +210,7 @@
 
 .about {
   display: grid;
-  padding: 180px 0 0;
+  padding: 180px 50px 0;
   column-gap: 25px;
   row-gap: 8px;
 }
