@@ -14,12 +14,12 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
+  gap:13px;
 }
 
 .header__links-list-item {
   list-style: circle;
   list-style-position: inside;
-  padding-left: 12px;
 }
 
 .header__links-list-item_no-bullit {
@@ -49,7 +49,8 @@
 .cover {
   position: relative;
   padding: 165px 50px 50px;
-  background-image: url(./images/cover.jpg);
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
@@ -183,21 +184,21 @@
 }
 
 .card_type_film {
-  background-image: url(./images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
 }
 
 .card_type_book {
-  background-image: url(./images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
 }
 
 .card_type_picture {
-  background-image: url(./images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
