@@ -2,7 +2,7 @@
   padding: 92px 50px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  grid-template-areas: "header-menu header__logo adress";
+  grid-template-areas: "header-menu header__logo address";
   align-items: center;
   text-underline-offset: 4.1px;
 }
@@ -37,6 +37,7 @@
 }
 
 .address {
+  max-width: 240px;
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
@@ -52,7 +53,7 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -2;
+  background-position: center;
 }
 
 .overlay {
@@ -63,7 +64,6 @@
   height: 100%;
   opacity: 0.6;
   background-color: #000;
-  z-index: -1;
 }
 
 .cover__title {
@@ -81,6 +81,7 @@
 
 .aligned-text {
   display: block;
+  z-index: 1;
 }
 
 .aligned-text_center {
@@ -113,10 +114,11 @@
   color: #fff;
   text-align: center;
   font-size: 22px;
-  font-weight: 400;
-  word-spacing: 400%;
+  font-weight: 400; 
+  word-spacing: 22px;
   line-height: 28px;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .bet-button {
@@ -130,6 +132,7 @@
   font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .lots {
@@ -169,6 +172,9 @@
   justify-content: space-between;
   height: 100%;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .card__title {
@@ -178,6 +184,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .card__text {
@@ -185,27 +192,19 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
+  z-index: 1;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -2;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -2;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -2;
 }
 
 .lots__look-more-link {
